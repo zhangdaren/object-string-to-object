@@ -7,9 +7,9 @@
 		"json",
 		"object"
 	],
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
-	"main": "index.js",
+	"main": "object-string-to-object.js",
 	"homepage": "https://github.com/zhangdaren/objectStringToObject#readme",
 	"bugs": "https://github.com/zhangdaren/objectStringToObject/issues",
 	"repository": {

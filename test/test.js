@@ -1,5 +1,5 @@
 const assert = require('assert');
-const objectobjectStringToObject = require('../object-string-to-object');
+const objectStringToObject = require('../object-string-to-object');
 
 //
 const key = "key";
@@ -39,7 +39,7 @@ var str6_result = {
 };
 
 //test
-describe('#objectobjectStringToObject.js', () => {
+describe('#objectStringToObject.js', () => {
     describe('#objectStringToObject()', () => {
         it('objectStringToObject(str1) should return str1_result', () => {
             assert.deepStrictEqual(objectStringToObject(str1), str1_result);
