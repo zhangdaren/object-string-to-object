@@ -1,0 +1,25 @@
+{
+	"name": "object-string-to-object",
+	"author": "375890534@qq.com",
+	"description": "Try to parse object string to object",
+	"keywords": [
+		"parse",
+		"json",
+		"object"
+	],
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"homepage": "https://github.com/zhangdaren/objectStringToObject#readme",
+	"bugs": "https://github.com/zhangdaren/objectStringToObject/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/zhangdaren/objectStringToObject.git"
+	},
+	"devDependencies": {
+		"mocha": "^6.2.1"
+	},
+	"scripts": {
+		"test": "mocha"
+	}
+}
