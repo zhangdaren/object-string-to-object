@@ -3,7 +3,7 @@
  */
 function Stack() {
 	//使用数组存储数据
-	var items = []; 
+	var items = [];
 	//push 方法向栈里里压入一个元素
 	this.push = function(item) {
 		items.push(item);
@@ -29,4 +29,6 @@ function Stack() {
 		items = [];
 	}
 }
-module.exports = Stack;
+if (typeof module === 'object' && module.exports) {
+	module.exports = Stack;
+}
