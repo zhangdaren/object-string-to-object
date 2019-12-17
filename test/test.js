@@ -38,6 +38,9 @@ var str6_result = {
     key: "dd:'33'"
 };
 
+var str7 = '{type:"detail",isEnd:false,time:[day,hour,minute,seconds],infos:infos}';
+var str7_result = { type: "detail", isEnd: "false", time: "[day,hour,minute,seconds]", infos: "infos" };
+
 //test
 describe('#objectStringToObject.js', () => {
     describe('#objectStringToObject()', () => {
@@ -64,6 +67,10 @@ describe('#objectStringToObject.js', () => {
         it('objectStringToObject(str6) should return str6_result', () => {
             assert.deepStrictEqual(objectStringToObject(str6), str6_result);
         });
+
+        it('objectStringToObject(str7) should return str7_result', () => {
+            assert.deepStrictEqual(objectStringToObject(str7), str7_result);
+        });
     });
 });
 
@@ -75,5 +82,6 @@ setTimeout(() => {
     console.log(objectStringToObject(str4))
     console.log(objectStringToObject(str5))
     console.log(objectStringToObject(str6))
+    console.log(objectStringToObject(str7))
 }, 300);
 
