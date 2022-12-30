@@ -17,7 +17,7 @@
 		"url": "git+ssh://git@github.com/zhangdaren/objectStringToObject.git"
 	},
 	"devDependencies": {
-		"mocha": "^6.2.1"
+		"mocha": "^10.2.0"
 	},
 	"scripts": {
 		"test": "mocha"
